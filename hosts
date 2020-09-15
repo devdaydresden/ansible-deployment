@@ -1,0 +1,5 @@
+[prod]
+q4deumsy0b9 ansible_user=root
+
+[test]
+q4deumsy1d1 ansible_user=root

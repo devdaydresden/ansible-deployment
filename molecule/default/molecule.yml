@@ -1,0 +1,17 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: vagrant
+  provider:
+    name: virtualbox
+platforms:
+  - name: instance
+    box: Centos7_x86-64_Puppet4_vbox
+    box_url: https://doimage.mms-at-work.de/Centos7_x86-64_Puppet4/releases/vagrant/
+    memory: 1024
+    cpus: 2
+provisioner:
+  name: ansible
+verifier:
+  name: ansible
